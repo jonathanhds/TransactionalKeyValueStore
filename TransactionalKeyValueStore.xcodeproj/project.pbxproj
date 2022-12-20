@@ -11,8 +11,11 @@
 		ABA1EAF72952455000AD3BED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EAF62952455000AD3BED /* ContentView.swift */; };
 		ABA1EAF92952455100AD3BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAF82952455100AD3BED /* Assets.xcassets */; };
 		ABA1EAFC2952455100AD3BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */; };
-		ABA1EB062952455100AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */; };
 		ABA1EB102952455100AD3BED /* TransactionalKeyValueStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */; };
+		ABA1EB212952492C00AD3BED /* TransactionalKeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB202952492C00AD3BED /* TransactionalKeyValueStore.swift */; };
+		ABA1EB232952494200AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB222952494200AD3BED /* TransactionalKeyValueStoreTests.swift */; };
+		ABA1EB2829524A4F00AD3BED /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB2729524A4F00AD3BED /* Command.swift */; };
+		ABA1EB2A29524A6F00AD3BED /* RunResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB2929524A6F00AD3BED /* RunResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,12 @@
 		ABA1EAF82952455100AD3BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABA1EB012952455100AD3BED /* TransactionalKeyValueStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionalKeyValueStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreTests.swift; sourceTree = "<group>"; };
 		ABA1EB0B2952455100AD3BED /* TransactionalKeyValueStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionalKeyValueStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreUITests.swift; sourceTree = "<group>"; };
+		ABA1EB202952492C00AD3BED /* TransactionalKeyValueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStore.swift; sourceTree = "<group>"; };
+		ABA1EB222952494200AD3BED /* TransactionalKeyValueStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreTests.swift; sourceTree = "<group>"; };
+		ABA1EB2729524A4F00AD3BED /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		ABA1EB2929524A6F00AD3BED /* RunResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 		ABA1EAF32952455000AD3BED /* TransactionalKeyValueStore */ = {
 			isa = PBXGroup;
 			children = (
+				ABA1EB1F2952490D00AD3BED /* Core */,
 				ABA1EAF62952455000AD3BED /* ContentView.swift */,
 				ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */,
 				ABA1EAF82952455100AD3BED /* Assets.xcassets */,
@@ -111,7 +118,7 @@
 		ABA1EB042952455100AD3BED /* TransactionalKeyValueStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */,
+				ABA1EB1E2952490800AD3BED /* Core */,
 			);
 			path = TransactionalKeyValueStoreTests;
 			sourceTree = "<group>";
@@ -122,6 +129,24 @@
 				ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */,
 			);
 			path = TransactionalKeyValueStoreUITests;
+			sourceTree = "<group>";
+		};
+		ABA1EB1E2952490800AD3BED /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EB222952494200AD3BED /* TransactionalKeyValueStoreTests.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ABA1EB1F2952490D00AD3BED /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EB2729524A4F00AD3BED /* Command.swift */,
+				ABA1EB2929524A6F00AD3BED /* RunResult.swift */,
+				ABA1EB202952492C00AD3BED /* TransactionalKeyValueStore.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA1EB2829524A4F00AD3BED /* Command.swift in Sources */,
 				ABA1EAF72952455000AD3BED /* ContentView.swift in Sources */,
+				ABA1EB212952492C00AD3BED /* TransactionalKeyValueStore.swift in Sources */,
+				ABA1EB2A29524A6F00AD3BED /* RunResult.swift in Sources */,
 				ABA1EAF52952455000AD3BED /* TransactionalKeyValueStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA1EB062952455100AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */,
+				ABA1EB232952494200AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
