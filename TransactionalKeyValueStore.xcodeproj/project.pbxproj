@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA1EAF52952455000AD3BED /* TransactionalKeyValueStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */; };
+		ABA1EAF72952455000AD3BED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EAF62952455000AD3BED /* ContentView.swift */; };
+		ABA1EAF92952455100AD3BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAF82952455100AD3BED /* Assets.xcassets */; };
+		ABA1EAFC2952455100AD3BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */; };
+		ABA1EB062952455100AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */; };
+		ABA1EB102952455100AD3BED /* TransactionalKeyValueStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */; };
+		ABA1EB122952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB112952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA1EB022952455100AD3BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA1EAE92952455000AD3BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA1EAF02952455000AD3BED;
+			remoteInfo = TransactionalKeyValueStore;
+		};
+		ABA1EB0C2952455100AD3BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA1EAE92952455000AD3BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA1EAF02952455000AD3BED;
+			remoteInfo = TransactionalKeyValueStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA1EAF12952455000AD3BED /* TransactionalKeyValueStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionalKeyValueStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreApp.swift; sourceTree = "<group>"; };
+		ABA1EAF62952455000AD3BED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA1EAF82952455100AD3BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABA1EB012952455100AD3BED /* TransactionalKeyValueStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionalKeyValueStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreTests.swift; sourceTree = "<group>"; };
+		ABA1EB0B2952455100AD3BED /* TransactionalKeyValueStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionalKeyValueStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreUITests.swift; sourceTree = "<group>"; };
+		ABA1EB112952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA1EAEE2952455000AD3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1EAFE2952455100AD3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1EB082952455100AD3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA1EAE82952455000AD3BED = {
+			isa = PBXGroup;
+			children = (
+				ABA1EAF32952455000AD3BED /* TransactionalKeyValueStore */,
+				ABA1EB042952455100AD3BED /* TransactionalKeyValueStoreTests */,
+				ABA1EB0E2952455100AD3BED /* TransactionalKeyValueStoreUITests */,
+				ABA1EAF22952455000AD3BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA1EAF22952455000AD3BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EAF12952455000AD3BED /* TransactionalKeyValueStore.app */,
+				ABA1EB012952455100AD3BED /* TransactionalKeyValueStoreTests.xctest */,
+				ABA1EB0B2952455100AD3BED /* TransactionalKeyValueStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA1EAF32952455000AD3BED /* TransactionalKeyValueStore */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */,
+				ABA1EAF62952455000AD3BED /* ContentView.swift */,
+				ABA1EAF82952455100AD3BED /* Assets.xcassets */,
+				ABA1EAFA2952455100AD3BED /* Preview Content */,
+			);
+			path = TransactionalKeyValueStore;
+			sourceTree = "<group>";
+		};
+		ABA1EAFA2952455100AD3BED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABA1EB042952455100AD3BED /* TransactionalKeyValueStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */,
+			);
+			path = TransactionalKeyValueStoreTests;
+			sourceTree = "<group>";
+		};
+		ABA1EB0E2952455100AD3BED /* TransactionalKeyValueStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */,
+				ABA1EB112952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift */,
+			);
+			path = TransactionalKeyValueStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA1EAF02952455000AD3BED /* TransactionalKeyValueStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA1EB152952455100AD3BED /* Build configuration list for PBXNativeTarget "TransactionalKeyValueStore" */;
+			buildPhases = (
+				ABA1EAED2952455000AD3BED /* Sources */,
+				ABA1EAEE2952455000AD3BED /* Frameworks */,
+				ABA1EAEF2952455000AD3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransactionalKeyValueStore;
+			productName = TransactionalKeyValueStore;
+			productReference = ABA1EAF12952455000AD3BED /* TransactionalKeyValueStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA1EB002952455100AD3BED /* TransactionalKeyValueStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA1EB182952455100AD3BED /* Build configuration list for PBXNativeTarget "TransactionalKeyValueStoreTests" */;
+			buildPhases = (
+				ABA1EAFD2952455100AD3BED /* Sources */,
+				ABA1EAFE2952455100AD3BED /* Frameworks */,
+				ABA1EAFF2952455100AD3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA1EB032952455100AD3BED /* PBXTargetDependency */,
+			);
+			name = TransactionalKeyValueStoreTests;
+			productName = TransactionalKeyValueStoreTests;
+			productReference = ABA1EB012952455100AD3BED /* TransactionalKeyValueStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA1EB0A2952455100AD3BED /* TransactionalKeyValueStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA1EB1B2952455100AD3BED /* Build configuration list for PBXNativeTarget "TransactionalKeyValueStoreUITests" */;
+			buildPhases = (
+				ABA1EB072952455100AD3BED /* Sources */,
+				ABA1EB082952455100AD3BED /* Frameworks */,
+				ABA1EB092952455100AD3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA1EB0D2952455100AD3BED /* PBXTargetDependency */,
+			);
+			name = TransactionalKeyValueStoreUITests;
+			productName = TransactionalKeyValueStoreUITests;
+			productReference = ABA1EB0B2952455100AD3BED /* TransactionalKeyValueStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA1EAE92952455000AD3BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABA1EAF02952455000AD3BED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABA1EB002952455100AD3BED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABA1EAF02952455000AD3BED;
+					};
+					ABA1EB0A2952455100AD3BED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABA1EAF02952455000AD3BED;
+					};
+				};
+			};
+			buildConfigurationList = ABA1EAEC2952455000AD3BED /* Build configuration list for PBXProject "TransactionalKeyValueStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA1EAE82952455000AD3BED;
+			productRefGroup = ABA1EAF22952455000AD3BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA1EAF02952455000AD3BED /* TransactionalKeyValueStore */,
+				ABA1EB002952455100AD3BED /* TransactionalKeyValueStoreTests */,
+				ABA1EB0A2952455100AD3BED /* TransactionalKeyValueStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA1EAEF2952455000AD3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1EAFC2952455100AD3BED /* Preview Assets.xcassets in Resources */,
+				ABA1EAF92952455100AD3BED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1EAFF2952455100AD3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1EB092952455100AD3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA1EAED2952455000AD3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1EAF72952455000AD3BED /* ContentView.swift in Sources */,
+				ABA1EAF52952455000AD3BED /* TransactionalKeyValueStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1EAFD2952455100AD3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1EB062952455100AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1EB072952455100AD3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1EB122952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift in Sources */,
+				ABA1EB102952455100AD3BED /* TransactionalKeyValueStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA1EB032952455100AD3BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA1EAF02952455000AD3BED /* TransactionalKeyValueStore */;
+			targetProxy = ABA1EB022952455100AD3BED /* PBXContainerItemProxy */;
+		};
+		ABA1EB0D2952455100AD3BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA1EAF02952455000AD3BED /* TransactionalKeyValueStore */;
+			targetProxy = ABA1EB0C2952455100AD3BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABA1EB132952455100AD3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA1EB142952455100AD3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA1EB162952455100AD3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TransactionalKeyValueStore/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jonathanhds.TransactionalKeyValueStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA1EB172952455100AD3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TransactionalKeyValueStore/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jonathanhds.TransactionalKeyValueStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA1EB192952455100AD3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jonathanhds.TransactionalKeyValueStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransactionalKeyValueStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TransactionalKeyValueStore";
+			};
+			name = Debug;
+		};
+		ABA1EB1A2952455100AD3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jonathanhds.TransactionalKeyValueStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransactionalKeyValueStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TransactionalKeyValueStore";
+			};
+			name = Release;
+		};
+		ABA1EB1C2952455100AD3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jonathanhds.TransactionalKeyValueStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransactionalKeyValueStore;
+			};
+			name = Debug;
+		};
+		ABA1EB1D2952455100AD3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jonathanhds.TransactionalKeyValueStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransactionalKeyValueStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA1EAEC2952455000AD3BED /* Build configuration list for PBXProject "TransactionalKeyValueStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1EB132952455100AD3BED /* Debug */,
+				ABA1EB142952455100AD3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA1EB152952455100AD3BED /* Build configuration list for PBXNativeTarget "TransactionalKeyValueStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1EB162952455100AD3BED /* Debug */,
+				ABA1EB172952455100AD3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA1EB182952455100AD3BED /* Build configuration list for PBXNativeTarget "TransactionalKeyValueStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1EB192952455100AD3BED /* Debug */,
+				ABA1EB1A2952455100AD3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA1EB1B2952455100AD3BED /* Build configuration list for PBXNativeTarget "TransactionalKeyValueStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1EB1C2952455100AD3BED /* Debug */,
+				ABA1EB1D2952455100AD3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA1EAE92952455000AD3BED /* Project object */;
+}
