@@ -13,7 +13,6 @@
 		ABA1EAFC2952455100AD3BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */; };
 		ABA1EB062952455100AD3BED /* TransactionalKeyValueStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */; };
 		ABA1EB102952455100AD3BED /* TransactionalKeyValueStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */; };
-		ABA1EB122952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB112952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		ABA1EB052952455100AD3BED /* TransactionalKeyValueStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreTests.swift; sourceTree = "<group>"; };
 		ABA1EB0B2952455100AD3BED /* TransactionalKeyValueStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionalKeyValueStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreUITests.swift; sourceTree = "<group>"; };
-		ABA1EB112952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +92,8 @@
 		ABA1EAF32952455000AD3BED /* TransactionalKeyValueStore */ = {
 			isa = PBXGroup;
 			children = (
-				ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */,
 				ABA1EAF62952455000AD3BED /* ContentView.swift */,
+				ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */,
 				ABA1EAF82952455100AD3BED /* Assets.xcassets */,
 				ABA1EAFA2952455100AD3BED /* Preview Content */,
 			);
@@ -122,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */,
-				ABA1EB112952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift */,
 			);
 			path = TransactionalKeyValueStoreUITests;
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA1EB122952455100AD3BED /* TransactionalKeyValueStoreUITestsLaunchTests.swift in Sources */,
 				ABA1EB102952455100AD3BED /* TransactionalKeyValueStoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
