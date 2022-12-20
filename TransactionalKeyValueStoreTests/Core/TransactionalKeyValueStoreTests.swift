@@ -83,6 +83,19 @@ final class TransactionalKeyValueStoreTests: XCTestCase {
         XCTAssertEqual(result, .value("123"))
     }
 
+    func testSetValueAfterDelete() {
+        // Given
+        store.run(.set("foo", "123"))
+        store.run(.delete("foo"))
+
+        // When
+        store.run(.set("foo", "789"))
+
+        // Then
+        let result = store.run(.get("foo"))
+        XCTAssertEqual(result, .value("789"))
+    }
+
     func testCommandsThatReturnEmptyResult() {
         XCTAssertEqual(store.run(.set("foo", "123")), .empty)
         XCTAssertEqual(store.run(.delete("foo")), .empty)
