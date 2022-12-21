@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB99A20629537FF60064E0DC /* TransactionalKeyValueStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99A20529537FF60064E0DC /* TransactionalKeyValueStoreViewModel.swift */; };
+		AB99A209295383380064E0DC /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99A208295383380064E0DC /* String+Trim.swift */; };
+		AB99A20B29538C6B0064E0DC /* AlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99A20A29538C6B0064E0DC /* AlertInfo.swift */; };
 		ABA1EAF52952455000AD3BED /* TransactionalKeyValueStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */; };
-		ABA1EAF72952455000AD3BED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EAF62952455000AD3BED /* ContentView.swift */; };
+		ABA1EAF72952455000AD3BED /* TransactionalKeyValueStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EAF62952455000AD3BED /* TransactionalKeyValueStoreView.swift */; };
 		ABA1EAF92952455100AD3BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAF82952455100AD3BED /* Assets.xcassets */; };
 		ABA1EAFC2952455100AD3BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */; };
 		ABA1EB102952455100AD3BED /* TransactionalKeyValueStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1EB0F2952455100AD3BED /* TransactionalKeyValueStoreUITests.swift */; };
@@ -36,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB99A20529537FF60064E0DC /* TransactionalKeyValueStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreViewModel.swift; sourceTree = "<group>"; };
+		AB99A208295383380064E0DC /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		AB99A20A29538C6B0064E0DC /* AlertInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertInfo.swift; sourceTree = "<group>"; };
 		ABA1EAF12952455000AD3BED /* TransactionalKeyValueStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionalKeyValueStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreApp.swift; sourceTree = "<group>"; };
-		ABA1EAF62952455000AD3BED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA1EAF62952455000AD3BED /* TransactionalKeyValueStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionalKeyValueStoreView.swift; sourceTree = "<group>"; };
 		ABA1EAF82952455100AD3BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA1EAFB2952455100AD3BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABA1EB012952455100AD3BED /* TransactionalKeyValueStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionalKeyValueStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB99A20429537FC70064E0DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB99A20A29538C6B0064E0DC /* AlertInfo.swift */,
+				ABA1EAF62952455000AD3BED /* TransactionalKeyValueStoreView.swift */,
+				AB99A20529537FF60064E0DC /* TransactionalKeyValueStoreViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB99A2072953831F0064E0DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB99A208295383380064E0DC /* String+Trim.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ABA1EAE82952455000AD3BED = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +122,12 @@
 		ABA1EAF32952455000AD3BED /* TransactionalKeyValueStore */ = {
 			isa = PBXGroup;
 			children = (
-				ABA1EB1F2952490D00AD3BED /* Core */,
-				ABA1EAF62952455000AD3BED /* ContentView.swift */,
 				ABA1EAF42952455000AD3BED /* TransactionalKeyValueStoreApp.swift */,
 				ABA1EAF82952455100AD3BED /* Assets.xcassets */,
+				ABA1EB1F2952490D00AD3BED /* Core */,
+				AB99A2072953831F0064E0DC /* Extensions */,
 				ABA1EAFA2952455100AD3BED /* Preview Content */,
+				AB99A20429537FC70064E0DC /* View */,
 			);
 			path = TransactionalKeyValueStore;
 			sourceTree = "<group>";
@@ -279,10 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB99A20629537FF60064E0DC /* TransactionalKeyValueStoreViewModel.swift in Sources */,
 				ABA1EB2829524A4F00AD3BED /* Command.swift in Sources */,
-				ABA1EAF72952455000AD3BED /* ContentView.swift in Sources */,
+				AB99A209295383380064E0DC /* String+Trim.swift in Sources */,
+				ABA1EAF72952455000AD3BED /* TransactionalKeyValueStoreView.swift in Sources */,
 				ABA1EB212952492C00AD3BED /* TransactionalKeyValueStore.swift in Sources */,
 				ABA1EB2A29524A6F00AD3BED /* RunResult.swift in Sources */,
+				AB99A20B29538C6B0064E0DC /* AlertInfo.swift in Sources */,
 				ABA1EAF52952455000AD3BED /* TransactionalKeyValueStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
